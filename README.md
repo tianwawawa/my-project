@@ -1,0 +1,2 @@
+# my-project
+typescript project
