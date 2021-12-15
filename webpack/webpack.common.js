@@ -1,4 +1,3 @@
-console.log('hhhh')
 module.exports = () => [
   {
     test: /\.(js|jsx|ts|tsx)$/,
