@@ -4,7 +4,8 @@
   "description": "test",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "cross-env NODE_ENV=development webpack serve --config webpack/webpack.dev.mjs"
   },
   "author": "poi",
   "license": "ISC",
@@ -29,7 +30,10 @@
     "babel-plugin-import": "^1.13.3",
     "case-sensitive-paths-webpack-plugin": "^2.4.0",
     "clean-webpack-plugin": "^4.0.0",
+    "cross-env": "^7.0.3",
+    "css-loader": "^6.6.0",
     "eslint": "^7.32.0",
+    "eslint-config-airbnb": "^19.0.4",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-react": "^7.26.1",
@@ -37,17 +41,20 @@
     "husky": "^7.0.4",
     "less": "^4.1.2",
     "less-loader": "^10.2.0",
+    "mini-css-extract-plugin": "^2.5.3",
     "prettier": "^2.4.1",
     "pretty-quick": "^3.1.1",
+    "style-loader": "^3.3.1",
     "typescript": "^4.5.0-dev.20211030",
     "url-loader": "^4.1.1",
     "webpack": "^5.61.0",
+    "webpack-bundle-analyzer": "^4.5.0",
     "webpack-cli": "^4.9.1",
     "webpack-dev-server": "^4.4.0"
   },
   "dependencies": {
-    "react": "^18.0.0-alpha-f6abf4b40-20211020",
-    "react-dom": "^18.0.0-alpha-f6abf4b40-20211020"
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
   },
   "commitlint": {
     "extends": [

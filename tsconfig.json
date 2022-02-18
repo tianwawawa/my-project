@@ -1,0 +1,19 @@
+{
+  "include": ["src/**/*", "./typing.d.ts"],
+  "exclude": ["node_modules", "dist", "webpack"],
+  "compilerOptions": {
+    "module": "esNext",
+    "allowJs": false,
+    "checkJs": false,
+    "jsx": "react",
+    "strict": true,
+    "allowSyntheticDefaultImports": true,
+    "allowUnreachableCode": false,
+    "allowUnusedLabels": false,
+    "alwaysStrict": true,
+    "strictNullChecks": true,
+    "exactOptionalPropertyTypes": true,
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+  }
+}

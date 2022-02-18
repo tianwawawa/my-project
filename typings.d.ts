@@ -1,0 +1,5 @@
+declare module '*.module.less'
+declare module '*.less'
+declare module '*.js'
+declare module '*.jsx'
+declare module '*.png'
